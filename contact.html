@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body{
+            background-color: #6FB3B8;;
+        }
+        form{
+            width: 100%;
+            margin-left : 40%
+        }
+        ul{
+                list-style-type: none;
+                padding: 0px;
+                margin: 0px;
+            }
+            ul li{
+                /* float: left; */
+                display: inline-block;
+            }
+
+            ul li a{
+                color: #194F92;
+                padding:0px 100px 20px;
+                text-decoration: none;
+                text-align: center;
+                
+            }
+            ul li a:hover{
+                background-color:#194F92 ;
+                color: white;
+                 border-radius: 20px 0px 20px 0px; 
+            }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="SimpleUI.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">SignUp</a></li>                
+        </ul>
+    </div>
+
+        <h1 style="text-align: center; margin-top: 50px;">Contact Us</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>FirstName</td>
+                    <td><input  type="text" name="fname"></td>
+                </tr>
+                
+                <tr>
+                    <td>LastName</td>
+                    <td><input  type="text" name="lname"></td>
+                </tr>
+
+                <tr>
+                    <td>Email</td>
+                    <td><input  type="email" name="mail"></td>
+                </tr>
+
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr
+                >
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="add"  cols="40" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Contact No</td>
+                    <td><input  type="tel" name="contact"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </form>
+    
+</body>
+</html>
